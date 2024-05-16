@@ -1,0 +1,113 @@
+.welcome .image-bg {
+  background: url('../assets/images/rectangle_812.jpeg') 50% / cover no-repeat;
+  width: 920px;
+  height: 1024px;
+}
+
+.welcome .mask-group {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  width: 1001px;
+  height: 1024px;
+  box-sizing: border-box;
+}
+
+.welcome .content-wrapper {
+  position: relative;
+  padding: 253px 0 0 54px;
+  box-sizing: border-box;
+}
+
+.welcome .banner-login-welcome-back {
+  margin-bottom: 20px;
+  display: inline-block;
+  align-self: flex-end;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+}
+
+.welcome .group-299 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 23.6px 373px 23.6px;
+  box-sizing: border-box;
+}
+
+.welcome .button-login {
+  border-radius: 8px;
+  position: absolute;
+  top: 365px;
+  right: 68.1px;
+  display: flex;
+  padding: 27px 0 27.8px 9.9px;
+  width: 492.9px;
+  box-sizing: border-box;
+}
+
+.welcome .login {
+  background-color: #1E232C; 
+  border: none; 
+  color: white; 
+  padding: 15px 32px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block;
+  font-size: 16px; 
+  margin: 4px 2px;
+  cursor: pointer; 
+  border-radius: 4px; 
+  font-family: 'Poppins'; 
+  font-weight: 500;
+  width: 100%;
+  max-width: 300px;
+}
+
+.login:hover {
+  background-color: #2c2d2f;
+}
+
+.welcome .register-button {
+  border-radius: 8px;
+  position: absolute;
+  top: 456px;
+  right: 68px;
+  display: flex;
+  padding: 24.4px 0 29.6px 3px;
+  width: 494px;
+  box-sizing: border-box;
+}
+
+.welcome .register {
+  background-color: #FFFFFF; 
+  border: 1px solid #000000; 
+  color: #000000; 
+  padding: 15px 32px;
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 4px; 
+  font-family: 'Poppins';
+  font-weight: 500;
+  width: 100%;
+  max-width: 300px;
+}
+
+.register:hover {
+  background-color: #c2c3c5;
+}
+
+.welcome {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
